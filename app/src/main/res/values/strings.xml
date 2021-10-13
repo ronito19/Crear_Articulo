@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Crear Articulo</string>
+    <string name="nuevo_articulo">Nuevo Articulo</string>
+    <string name="nombre_del_articulo">Nombre</string>
+    <string name="button">Crear Articulo</string>
+    <string name="descripcion_del_articulo">Descripcion</string>
+    <string name="contenido_del_art_culo">Contenido</string>
+</resources>
