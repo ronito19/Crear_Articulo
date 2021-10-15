@@ -11,18 +11,36 @@
         android:id="@+id/txt_titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Titulo"
+        android:textSize="34sp" />
 
-    <TextView
-        android:id="@+id/txt_descripcion"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/txt_contenido"
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Descripcion"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_contenido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Contenido"
+                android:textSize="60sp" />
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
